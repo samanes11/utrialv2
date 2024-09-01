@@ -1,0 +1,24 @@
+.tester{
+    background-color: blueviolet;
+}
+.tester2{
+    height: 100px;
+    width:300px;
+}
+
+.smallscreen{
+    display: none;
+    color:tomato;
+}
+
+@media screen and (min-width: 0px) and (max-width: 629px) {
+    .tester{
+        background-color: rgb(40, 176, 74);
+        display: none;
+    }
+
+    .smallscreen{
+        display: inline;
+        color:tomato;
+    }
+}
